@@ -1555,7 +1555,7 @@
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: filson-soft;
 		font-weight: 300;
 	}
 
@@ -1740,6 +1740,9 @@
 		.image img {
 			display: block;
 			width: 100%;
+		}
+
+		.image img.round {
 			border-radius: 50%;
 		}
 
@@ -1856,6 +1859,7 @@
 				border-radius: 100%;
 				border: 0;
 				color: inherit;
+				font-family: "FontAwesome";
 			}
 
 				ul.icons li a:hover {
@@ -2051,7 +2055,7 @@
 
 		.icon:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: "FontAwesome";
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -2089,6 +2093,9 @@
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
+		.wrapper.style1 {
+			padding-top: 3em;
+		}
 
 		.wrapper.style2 {
 			padding-top: 0;
@@ -2813,7 +2820,7 @@
 				}
 
 					#navButton .toggle:before {
-						font-family: FontAwesome;
+						font-family: "FontAwesome";
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;
