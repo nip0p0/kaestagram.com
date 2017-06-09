@@ -1742,6 +1742,10 @@
 			width: 100%;
 		}
 
+		.image img.img-circle {
+			border-radius: 50%;
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -1751,6 +1755,7 @@
 			display: block;
 			width: 100%;
 			margin: 0 0 4em 0;
+			border-radius: 50%;
 		}
 
 		.image.left {
@@ -3040,3 +3045,17 @@
 					}
 
 	}
+
+
+
+
+
+
+
+
+
+/*spacing*/
+
+.m-t {
+	margin-top: 1.5em;
+}
