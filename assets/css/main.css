@@ -3031,6 +3031,29 @@
 					margin-bottom: 2.5em;
 				}
 
+			#header-paris {
+				background-attachment: scroll;
+				padding: 2.5em 0 0 0;
+			}
+
+				#header-paris .inner {
+					padding-top: 1.5em;
+					padding-left: 1em;
+					padding-right: 1em;
+				}
+
+				#header-paris header > p {
+					font-size: 1em;
+				}
+
+				#header-paris h1 {
+					font-size: 1.75em;
+				}
+
+				#header-paris hr {
+					top: 1em;
+					margin-bottom: 2.5em;
+				}
 			body.homepage #header {
 				min-height: 0;
 				padding: 5.5em 0 5em 0;
@@ -3045,6 +3068,19 @@
 					font-size: 2.5em;
 				}
 
+			body.homepage #header-paris {
+				min-height: 0;
+				padding: 5.5em 0 5em 0;
+				height: auto;
+			}
+
+				body.homepage #header-paris:before {
+					display: none;
+				}
+
+				body.homepage #header-paris h1 {
+					font-size: 2.5em;
+				}
 		/* Nav */
 
 			#nav {
