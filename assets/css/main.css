@@ -2117,6 +2117,18 @@
 		cursor: default;
 	}
 
+	#header-paris {
+		position: relative;
+		background-image: url("../../images/paris.jpg");
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+		color: #fff;
+		text-align: center;
+		padding: 7.5em 0 2em 0;
+		cursor: default;
+	}
+
 		#header:before {
 			content: '';
 			display: inline-block;
@@ -2209,6 +2221,40 @@
 	body.homepage.is-loading #header:after {
 		opacity: 1;
 	}
+
+	body.homepage #header-paris {
+		height: 100vh;
+		min-height: 40em;
+	}
+
+		body.homepage #header-paris h1 {
+			font-size: 4em;
+		}
+
+		body.homepage #header-paris:after {
+			content: '';
+			background: #1C0920;
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			-moz-transition: opacity 2.5s ease-in-out;
+			-webkit-transition: opacity 2.5s ease-in-out;
+			-ms-transition: opacity 2.5s ease-in-out;
+			transition: opacity 2.5s ease-in-out;
+			-moz-transition-delay: 0.5s;
+			-webkit-transition-delay: 0.5s;
+			-ms-transition-delay: 0.5s;
+			transition-delay: 0.5s;
+		}
+
+	body.homepage.is-loading #header-paris:after {
+		opacity: 1;
+	}
+
 
 /* Nav */
 
@@ -2389,7 +2435,7 @@
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #483949;
 		color: #fff;
 	}
 
