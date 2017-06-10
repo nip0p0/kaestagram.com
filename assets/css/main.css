@@ -1742,8 +1742,10 @@
 			width: 100%;
 		}
 
-		.image img.round {
+		.image img.clients {
 			border-radius: 50%;
+			display: inline;
+			width: 80%;
 		}
 
 		.image.fit {
