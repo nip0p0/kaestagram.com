@@ -3221,6 +3221,32 @@
 					top: 1em;
 					margin-bottom: 2.5em;
 				}
+
+			#header-service {
+				background-attachment: scroll;
+				padding: 2.5em 0 0 0;
+			}
+
+				#header-service .inner {
+					padding-top: 1.5em;
+					padding-left: 1em;
+					padding-right: 1em;
+				}
+
+				#header-service header > p {
+					font-size: 1em;
+				}
+
+				#header-service h1 {
+					font-size: 1.75em;
+					margin-top: none;
+				}
+
+				#header-service hr {
+					top: 1em;
+					margin-bottom: 2.5em;
+				}
+
 			body.homepage #header {
 				min-height: 0;
 				padding: 5.5em 0 5em 0;
@@ -3249,6 +3275,22 @@
 					font-size: 2.5em;
 					margin-top: none !important;
 				}
+
+			body.homepage #header-service {
+				min-height: 0;
+				padding: 5.5em 0 5em 0;
+				height: auto;
+			}
+
+				body.homepage #header-service:before {
+					display: none;
+				}
+
+				body.homepage #header-service h1 {
+					font-size: 2.5em;
+					margin-top: none !important;
+				}
+
 		/* Nav */
 
 			#nav {
