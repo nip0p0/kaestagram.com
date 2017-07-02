@@ -1598,7 +1598,7 @@
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 2em;
 	}
 
 	h4 {
@@ -3360,4 +3360,8 @@
 
 	.m-b-n {
 		margin-bottom: 0;
+	}
+
+	.m-b-sm {
+		margin-bottom: 0.5em;
 	}
