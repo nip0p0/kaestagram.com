@@ -2000,7 +2000,7 @@
 		border: solid 1px #483949;
 		color: #483949;
 		text-align: center;
-		border-radius: 0.5em;
+		border-radius: 2em;
 		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
 		cursor: pointer;
@@ -3092,6 +3092,7 @@
 				line-height: 3em;
 				width: 60%;
 				margin-left: 5em;
+				border-radius: 2em;
 			}
 
 		/* Off-Canvas Navigation */
